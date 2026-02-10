@@ -1,0 +1,51 @@
+#[build-system]
+#requires = ["setuptools", "wheel", "toml"]
+#build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["src*", "static_analysis*"]
+namespaces = false
+
+[tool.black]
+version = "23.11.0"
+exclude = '/static_analysis/pclp'
+
+[tool.isort]
+profile = "black"
+skip_glob = ["**/pclp"]
+
+[tool.autoflake]
+version = "2.2.1"
+in-place = true
+remove-all-unused-imports = true
+exclude = ["**/pclp"]
+recursive = true
+
+[tool.pytest.ini_options]
+render_collapsed = "All"
+markers = ["description: Description of a test case",
+           "jira_id: JIRA-ID of a test case",
+           "run_exclusively: mark a test to run exclusively"]
+
+[project]
+name = "test_automated_framework"
+version = "1.0.0"
+description = "Script to automate C code testing"
+dependencies = [
+    "kiwisolver==1.4.5",
+    "matplotlib==3.8.1",
+    "black==23.11.0",
+    "flake8==6.1.0",
+    "gcovr==7.0",
+    "isort==5.12.0",
+    "matplotlib==3.8.1",
+    "mypy==1.7.0",
+    "pytest==8.0.1",
+    "pytest-html==4.1.1",
+    "Sphinx==7.2.6",
+    "pre-commit==3.5.0",
+    "autoflake==2.2.1",
+    "regex==2023.10.3",
+    "cffi==1.16.0",
+    "varname==0.13.0"
+]

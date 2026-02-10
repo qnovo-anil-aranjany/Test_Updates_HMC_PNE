@@ -1,0 +1,9 @@
+CTE First execution, charging started : False, battery_state : 1
+Charging started: input time : 0
+Expected expected_charge_time_80 : 2880
+Expected expected_charge_time_350_80 : 0
+Charger 80 reached, input time : 2445
+Expected charge time: 2880, actual : 2445
+Expected ChargeTime: 2880 and Actual ChargeTime: 2445
+Deviation in estimate for 80% capacity current charger: 16.338028169014084
+Deviation in estimate for current charger 80% capacity is above KPI: 16.338028169014084

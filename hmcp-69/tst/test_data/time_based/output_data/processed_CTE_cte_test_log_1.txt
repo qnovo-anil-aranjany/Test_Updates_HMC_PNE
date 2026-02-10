@@ -1,0 +1,8 @@
+CTE First execution, charging started : False, battery_state : 0
+Charging started: input time : 1
+Expected expected_charge_time_80 : 1311
+Expected expected_charge_time_350_80 : 1306
+Charger 80 reached, input time : 1
+Expected charge time: 1311, actual : 0
+Resetting after a cycle
+CTE First execution, charging started : False, battery_state : 0

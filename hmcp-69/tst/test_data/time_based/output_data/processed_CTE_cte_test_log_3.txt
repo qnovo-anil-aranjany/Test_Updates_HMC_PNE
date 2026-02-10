@@ -1,0 +1,37 @@
+CTE First execution, charging started : False, battery_state : 0
+Charging started: input time : 143
+Expected expected_charge_time_80 : 2664
+Expected expected_charge_time_350_80 : 2585
+Charger 80 reached, input time : 5243
+Expected charge time: 2664, actual : 5100
+Expected ChargeTime: 2664 and Actual ChargeTime: 5100
+Deviation in estimate for 80% capacity current charger: 62.75115919629057
+Deviation in estimate for current charger 80% capacity is above KPI: 62.75115919629057
+Expected ChargeTime: 5597 and Actual ChargeTime: 5100
+Deviation in estimate for charger_50_kw 80% capacity 50_80: 9.292324950920818
+Expected ChargeTime: 25003 and Actual ChargeTime: 5101
+Deviation in estimate for charger_10_9_kw 80% capacity 10_9_80: 132.22163167685358
+Deviation in estimate for 80% for 10_9kw capacity is above KPI: 132.22163167685358
+Expected ChargeTime: 27031 and Actual ChargeTime: 5101
+Deviation in estimate for charger_10_kw 80% capacity 10_80: 136.49943981078053
+Deviation in estimate for 80% for 10kw capacity is above KPI: 136.49943981078053
+Expected ChargeTime: 118789 and Actual ChargeTime: 5101
+Deviation in estimate for charger_2_45_kw 80% capacity 2_45_80: 183.5305512955041
+Deviation in estimate for 80% for 2_45kw capacity is above KPI: 183.5305512955041
+Expected ChargeTime: 93879 and Actual ChargeTime: 5101
+Deviation in estimate for charger_3_2_kw 80% capacity 3_2_80: 179.38573449181652
+Deviation in estimate for 80% for 3_2kw capacity is above KPI: 179.38573449181652
+Expected ChargeTime: 104507 and Actual ChargeTime: 5101
+Deviation in estimate for charger_2_88_kw 80% capacity 2_88_80: 181.3845704693088
+Deviation in estimate for 80% for 2_88kw capacity is above KPI: 181.3845704693088
+Expected ChargeTime: 112478 and Actual ChargeTime: 5101
+Deviation in estimate for charger_2_64_kw 80% capacity 2_64_80: 182.64656103555907
+Deviation in estimate for 80% for 2_64kw capacity is above KPI: 182.64656103555907
+Expected ChargeTime: 108493 and Actual ChargeTime: 5101
+Deviation in estimate for charger_2_76_kw 80% capacity 2_76_80: 182.03778368575806
+Deviation in estimate for 80% for 2_76kw capacity is above KPI: 182.03778368575806
+Expected ChargeTime: 2585 and Actual ChargeTime: 5103
+Deviation in estimate for charger_350_kw 80% capacity: 65.50468262226848
+Deviation in estimate for 350kw  80% capacity is above KPI: 65.50468262226848
+Resetting after a cycle
+CTE First execution, charging started : False, battery_state : 0
