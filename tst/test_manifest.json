@@ -1,0 +1,14 @@
+{
+    "test_details":
+      {
+        "test_type": "ctest",
+        "module": "sp_customer_build",
+        "customer": "HMC",
+        "program": "1",
+        "tests": [
+          "test_fs_AFC_CalcCurrRatio.py"
+
+        ]
+      }
+
+}
